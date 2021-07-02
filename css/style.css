@@ -33,12 +33,14 @@ h2{
 }
 
 p{
+    font-size: 14px;
     color: var(--color-transparent-white);
     margin-bottom: 40px;
     width: 80%;
 }
 
 button{
+    font-size: 12px;
     background-color: var(--color-ligth-gray);
     border-radius: 50px;
     border: none;
@@ -46,8 +48,9 @@ button{
 }
 
 button:hover{
+    font-size: 12px;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
 }
 
@@ -67,20 +70,20 @@ button:hover{
 .column1 {
     background-color: var(--color-orange);
     width: 400px;
-    height: fit-content;
+    height: 500px;
     border-radius: 10px 0 0 10px;
 }
 
 .column2 {
     background-color: var(--color-cyan);
     width: 400px;
-    height: fit-content;
+    height: 500px;
 }
 
 .column3 {
     background-color: var(--color-dark-cyan);
     width: 400px;
-    height: fit-content;
+    height: 500px;
     border-radius: 0 10px 10px 0;
 }
 
